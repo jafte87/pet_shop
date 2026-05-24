@@ -1,3 +1,6 @@
+import './Navbar.css';
+import hero from '../assets/hero.png';
+
 function Navbar() {
     return (
         <nav className="navbar">
@@ -11,12 +14,14 @@ function Navbar() {
                 }}/>
             </div>
             <ul className='nav-btns'>
-                <li className="cart">Cart</li>
-                <li className="orders">Orders</li>
-                <li className="wishlist">Wishlist</li>
+                <li>Cart</li>
+                <li>Orders</li>
+                <li>Wishlist</li>
             </ul>
-            <a href="">Login</a>
-            <a href="">Sigin up</a>
+            <div className='sign-btns'>
+               <a href="" className='sign-btn'>Login</a>
+               <a href="" className='sign-btn'>Siginup</a>
+            </div>
         </nav>
     );
 }
