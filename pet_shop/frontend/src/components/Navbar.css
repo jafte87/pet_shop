@@ -4,8 +4,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
+    height: 100px;
 }
+
+.logo {
+    width: 5%;
+    margin: 0 0 0 2%;
+}
+
 .nav-btns {
     display: inline-flex;
     list-style: none;
@@ -31,4 +37,10 @@
     padding: 12px;
     text-decoration: none;
     color: #ffffff;
+}
+
+.sign-btn:hover {
+    transition: all 0.4s;
+    background: #ffffff;
+    color:#A443F3 ;
 }

@@ -1,10 +1,11 @@
 import './Navbar.css';
 import hero from '../assets/hero.png';
+import petlogo from '../assets/petlogo.png';
 
 function Navbar() {
     return (
         <nav className="navbar">
-            <img className="logo" src="" alt="" />
+            <img className="logo" src={petlogo} />
             <div className="search-bar">
                 <input type="text" placeholder="Search for pets..." 
                 onKeyDown={ (e) => {
