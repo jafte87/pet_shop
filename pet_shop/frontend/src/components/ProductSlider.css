@@ -1,0 +1,19 @@
+.products-slider {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 16px;
+    scroll-snap-type: x mandatory;
+}
+
+.products-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.product-card {
+    min-width: 200px;
+    height: 300px;
+    scroll-snap-align: start;
+    border-radius: 40px;
+    background-color:#ffffff;
+}

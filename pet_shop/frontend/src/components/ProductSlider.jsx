@@ -1,4 +1,4 @@
-function Product_Slider() {
+function ProductSlider() {
     return(
         <div className="product-slider">
             <div className="product-box">product 1</div>
@@ -10,3 +10,5 @@ function Product_Slider() {
         </div>
     );
 }
+
+export default ProductSlider;
