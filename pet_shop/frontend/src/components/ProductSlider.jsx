@@ -1,3 +1,5 @@
+import './ProductSlider.css';
+
 function ProductSlider() {
     return(
         <div className="product-slider">
